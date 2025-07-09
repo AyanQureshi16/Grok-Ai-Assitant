@@ -1,0 +1,24 @@
+.gradient-text {
+            background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 50%, #EC4899 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .chat-bubble {
+            border-radius: 1.5rem 1.5rem 1.5rem 0;
+        }
+        .user-bubble {
+            border-radius: 1.5rem 1.5rem 0 1.5rem;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; }
+            100% { opacity: 0.8; }
+        }
